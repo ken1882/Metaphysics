@@ -11,7 +11,7 @@ This rewrite is tested and works with:
 * **Minecraft**: 1.20.1
 * **Forge**: 47.x
 * **Valkyrien Skies**: **2.4.6**
-* **Create**: **0.6.x (Create 6)**
+* **Create**: **6.0.8 (Create 6)**
 * **CC: Tweaked**: **1.170+**
 
 > ⚠️ Earlier versions of these mods are **not supported**.
