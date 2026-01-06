@@ -1,0 +1,124 @@
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# Optional: local env files
+.env
+.env.*
+*.local
+
+# ---- Gradle / build system ----
+.gradle/
+**/.gradle/
+build/
+out/
+run/
+logs/
+*.log
+
+# Gradle wrapper (keep jar + scripts, ignore user-local stuff)
+!gradle/wrapper/gradle-wrapper.jar
+# (Keep gradlew/gradlew.bat in repo)
+
+# ---- Minecraft / Forge dev outputs ----
+# Common ForgeGradle run dirs
+runs/
+runClient/
+runServer/
+runData/
+runGameTest/
+*.launch
+
+# Crash reports, local worlds, configs in run/
+**/crash-reports/
+**/world/
+**/saves/
+**/resourcepacks/
+**/shaderpacks/
+**/config/
+**/mods/
+**/downloads/
+**/screenshots/
+**/options.txt
+**/optionsof.txt
+**/servers.dat
+**/usercache.json
+**/usernamecache.json
+
+# ---- Build artifacts ----
+*.jar
+*.jmod
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Keep built jars only if you explicitly want them versioned:
+#!build/libs/*.jar
+
+# ---- Java / Kotlin ----
+*.class
+*.jar.original
+*.war
+*.ear
+
+# IntelliJ / Eclipse / VS Code build metadata
+.classpath
+.project
+.settings/
+bin/
+*.metadata
+*.recommenders
+*.factorypath
+
+# ---- Mixin / annotation processor outputs ----
+# Refmaps, generated mixin mappings, annotation processing outputs
+**/*refmap*.json
+**/*mappings*.tsrg
+**/build/tmp/**
+
+# ---- Mappings / caches (ForgeGradle) ----
+# Local caches sometimes created under project
+fg_cache/
+forge_cache/
+loom-cache/
+remappedJars/
+*.lck
+
+# ---- User-specific JVM args / run configs ----
+local.properties
+gradle.properties.local
+jvm.args
+jvmargs.txt
+
+# ---- Datagen outputs (if you generate resources) ----
+src/generated/
+generated/
+
+# ---- Mac/Linux temp ----
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ---- Windows temp ----
+*.lnk
+$RECYCLE.BIN/
+
+# ---- Logs / dumps ----
+hs_err_pid*
+replay_pid*
+*.hprof
+*.jfr
+*.dump
+*.dmp
