@@ -1,4 +1,4 @@
-package com.example.metaphysics;
+package com.compeador.metaphysics;
 
 import net.minecraft.core.BlockPos;
 import net.minecraftforge.common.MinecraftForge;

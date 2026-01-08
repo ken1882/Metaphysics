@@ -1,4 +1,4 @@
-package com.example.metaphysics;
+package com.compeador.metaphysics;
 
 import dan200.computercraft.api.lua.ILuaAPI;
 import dan200.computercraft.api.lua.LuaFunction;

@@ -1,4 +1,4 @@
-package com.example.metaphysics;
+package com.compeador.metaphysics;
 
 import dan200.computercraft.api.ComputerCraftAPI;
 import dan200.computercraft.api.component.ComputerComponents;
@@ -22,5 +22,7 @@ public final class CCIntegration {
 
             return new CoordinatePocketComputerAPI(entity, true);
         });
+
+        PeripheralCommon.registerGenericPeripheralCommon();
     }
 }

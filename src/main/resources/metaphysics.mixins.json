@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.compeador.metaphysics.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "metaphysics.refmap.json",
+    "mixins": [
+        "createbigcannons.CannonMountBlockEntityAccessor"
+    ],
+    "client": [],
+    "server": [],
+    "injectors": {
+    "defaultRequire": 1
+    }
+}

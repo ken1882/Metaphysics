@@ -1,4 +1,4 @@
-package com.example.metaphysics;
+package com.compeador.metaphysics;
 
 public class Node {
     public int x, y, z;
